@@ -1,0 +1,47 @@
+.cinza {
+    color: #787878;
+}
+
+.azul {
+    color: #1B2653;
+}
+
+.laranja {
+    color: #FE6613;
+}
+
+.branco {
+    color: #FFFFFF;
+}
+
+.preto {
+    color: #000000;
+}
+
+.preto-transparente {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.vermelho {
+    color: red;
+}
+
+.azul-escuro {
+    color: #101735;
+}
+
+.azul-medio {
+    color:  #1f2d66;
+}
+
+:root {
+    --cinza: #787878;
+    --azul: #1B2653;
+    --laranja: #FE6613;
+    --branco: #FFFFFF;
+    --preto: #000000;
+    --pretoTransparente: rgba(0, 0, 0, 0.7);
+    --vermelho: red;
+    --azulEscuro: #101735;
+    --azulMedio: #1f2d66;
+}

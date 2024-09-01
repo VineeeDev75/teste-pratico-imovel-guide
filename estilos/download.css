@@ -1,0 +1,30 @@
+#secao-download {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#secao-download img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#secao-download div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    position: absolute;
+    z-index: 2;
+    background-color: var(--laranja);
+    color: var(--branco);
+    font-size: 20px;
+    width: 70%;
+    height: 15%;
+    margin: 20px auto;
+}

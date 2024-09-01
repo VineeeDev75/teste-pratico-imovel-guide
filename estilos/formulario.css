@@ -1,0 +1,78 @@
+.botao-formulario {
+    width: 50%;
+    font-size: 12px;
+    margin: 0;
+    padding: 6px 10px;
+
+}
+
+#regra input {
+    width: 40%;
+    margin: auto;
+}
+
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 15px 10px 15px;
+    height: 100%;
+}
+
+
+form {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.entradas {
+    margin: 10px 0;
+    width: 100%;
+    color: var(--cinza);
+    font-size: 12px;
+    border: 1px solid var(--cinza);
+    border-radius: 5px;
+}
+
+input {
+    height: 25px;
+}
+
+textarea {
+    height: 80px;
+}
+
+#botao-regra {
+    width: 35%;
+}
+
+.line {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 10px 0;
+}
+
+#download {
+    width: 60%;
+    align-self: center;
+}
+
+.botao-imagem {
+    font-size: 14px;
+    margin-top: 10px;
+    height: 30px;
+}
+
+.linha {
+    margin-top: 15px;
+    background-color: var(--preto);
+    width: 10%;
+    height: 2px;
+}
+
+#regra-quatro {
+    border-color: var(--laranja);
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilos/main.css">
+
+        <title>Imóvel Guide</title>
+    </head>
+
+    <body>
+
+        <div id="tela-modal">
+            <div class="div-modal">
+                <button id="fechar-modal">x</button>
+                <div class="imagem-modal">
+                    <img id="conteudo-modal" src="imagens/casa.png">
+                </div>
+            </div>
+        </div>
+
+        <header>
+            <nav>
+                <img class="logo" src="imagens/logo.png">
+                <div class="menu-desk">
+                    <div class="itens-esquerda">
+                        <a href="#">Condomínios</a>
+                        <a href="#">Fórum</a>
+                        <a href="#">Guia</a>
+                        <a href="#">Artigos</a>
+                        <a href="#">Ferramentas</a>
+                    </div>
+                    
+                    <div class="itens-direita">
+                        <a href="#">Cotar imóvel</a></li>
+                        <a href="#">Planos</a></li>
+                        <a href="#">Entrar</a></li>
+                        <a href="#" id="cadastre">CADASTRE-SE</a>
+                    </div>
+                </div>
+                <img class="menu-icon" id="menu-hamburguer" src="imagens/menu-icon.png">
+                
+            </nav>
+            <div id="itens-menu" class="fechado">
+                <ul>
+                    <li><a href="#">Condomínios</a></li>
+                    <li><a href="#">Fórum</a></li>
+                    <li><a href="#">Guia</a></li>
+                    <li><a href="#">Artigos</a></li>
+                    <li><a href="#">Ferramentas</a></li>
+                </ul>
+                
+                <ul>
+                    <li><a href="#">Cotar imóvel</a></li>
+                    <li><a href="#">Planos</a></li>
+                    <li><a href="#">Entrar</a></li>
+                    <li id="cadastre"><a href="#">CADASTRE-SE</a></li>
+                </ul>
+            </div>
+        </header>
+        <div class="secoes">
+            <section>
+                <div class="box">
+                    <div class="corretor">
+                        <div class="corretor-imagem">
+                            <img class="corretores-blur" src="imagens/corretora.png">
+                            <img class="corretores" src="imagens/corretora.png">
+                        </div>
+                        <div class="dados-corretor">
+                            <h2 class="titulo">Nome Corretora</h2>
+                            <p>3.000 pontos</p>
+                            <p class="telefone" id="texto-telefone" texto-original="Ver telefone" texto-telefone="(11) 11111-1111">Ver telefone</p>
+                        </div>
+                    </div>
+                    <div class="corretor">
+                        <div class="corretor-imagem">
+                            <img class="corretores-blur" src="imagens/corretor.png">
+                            <img class="corretores" src="imagens/corretor.png">
+                        </div>
+                        <div class="dados-corretor">
+                            <h2 class="titulo">Nome Corretor</h2>
+                            <p>1.250 pontos</p>
+                            <p class="telefone" texto-original="Ver telefone" texto-telefone="(11) 99999-9999">Ver telefone</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="box">
+                    <div class="formulario">
+
+                        <form>
+                            <h2 class="titulo">Mande uma mensagem:</h2>
+                            <div>
+                                <input class="entradas" type="text" id="cpf" placeholder="Digite seu CPF">
+                                <input class="entradas" type="text" id="telefone" placeholder="Digite Seu Telefone">
+                                <textarea class="entradas" id="area-texto" placeholder="Digite o assunto"></textarea>
+                            </div>
+                            
+                            <button type="submit" class="botao-formulario" id="botao-alerta">Enviar Mensagem</button>
+                        </form>
+
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="box">
+                    <div class="formulario">
+                        
+                        <form id="regra">
+                            <h2 class="titulo">Regra de 3</h2>
+                            <div>
+                                <div class="line">
+                                    <input class="entradas" type="number" id="regra-um">
+                                    <div class="linha"></div>
+                                    <input class="entradas" type="number" id="regra-dois">
+                                </div>
+                                <div class="line">
+                                    <input class="entradas" type="number" id="regra-tres">
+                                    <div class="linha"></div>
+                                    <input class="entradas" type="number" id="regra-quatro" step="any" readonly>
+                                </div>
+                            </div>
+                            <button type="submit" class="botao-formulario" id="botao-regra">Calcular</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="box">
+                    <div class="div-imagem">
+                        <img src="imagens/casa.png">
+                    </div>
+                </div>
+                <button class="botao-imagem" id="botao-modal">ABRIR IMAGEM NO MODAL</button>
+            </section>
+            <section>
+                <div class="box">
+                    <div id="secao-download">
+                        <div>
+                            <p>Imovel Guide</p>
+                        </div>
+                        <img src="imagens/casa.png" >
+                    </div>
+                </div>
+                <button class="botao-imagem" id="download">Download</button>
+            </section>
+
+            <section class="secao-imagem">
+                <div class="box"  id="secao-zoom">
+                    <div class="div-imagem">
+                        <img id="zoom" src="imagens/casa.png">
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <footer>
+            <div class="rodape">
+                <div class="rodape-esquerda">
+                    <p>Termos</p>
+                    <p>Contato</p>
+                    <p>Sobre</p>
+                </div>
+            </div>
+            <div class="rodape-direita">
+                <p>© Copyright 2022.</p> 
+                <p>Todos os direitos reservados.</p>
+            </div>
+            <img class="logo" src="imagens/logo.png">
+        </footer>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+        <script src="scripts.js"></script>
+    </body>
+</html>
