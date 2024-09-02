@@ -43,6 +43,7 @@ input {
 
 textarea {
     height: 80px;
+    resize: none;
 }
 
 #botao-regra {
